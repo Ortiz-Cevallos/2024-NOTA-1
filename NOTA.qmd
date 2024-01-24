@@ -1,0 +1,45 @@
+---
+format: 
+  pdf:
+    #mainfont: Times New Roman
+    fontsize: 12pt 
+    fig-cap-location: top 
+    include-in-header: 
+       - "FORMATOPDF.tex"
+    toc: false
+    number-sections: false
+    linkcolor: azul
+    urlcolor: azul
+    headings:
+      display: false
+bibliography: [REFERENCIA_3.bib]
+csl: comision-economica-para-america-latina-y-el-caribe.csl
+reference-section-title: Referencias
+crossref-fig-title: Figura
+link-citations: true   
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+\maketitle
+
+\thispagestyle{fancy}
+
+\vspace{1.25cm}
+
+# Introducción
+
+El episodio inflacionario posterior a la crisis por la pandemia que ha afectado a los países de Centroamérica y República Dominicana (CARD) ha sido atribuido a factores exógenos o importados. Sin embargo, al profundizar sobre su causa se suele señalar diferentes factores tales como, el precio de los commodities, la disrupciones en la cadena de suministros, el shock de oferta debido al conflicto entre Rusia y Ucrania, entre otros. No obstante, de todos estos factores el único relevante, por ser la raíz de este episodio inflacionario, es la política fiscal expansiva emprendida por los Estados Unidos de América (EUA).
+
+En esta nota expongo la hipótesis del por qué la política fiscal expansiva de los EUA es la causa de la inflación observada post-pandemia, aclarando el canal de transmisión a través del cual se da el incremento del nivel de precios y como ese canal traspasa la frontera de los EUA afectando el nivel de precios de los países de la región de CARD, exponiendo en esos países las limitaciones de sus propias políticas monetarias en cuanto al control de la inflación.
+
+Para brindar esa explicación, acudo a la parábola del helicóptero lanzando dinero expuesta en @Friedman, con la cual señala que la inflación se produce al haber mayor cantidad de dinero para la adquisición de una misma cantidad de bienes. Sin embargo, como se indica en @Cochrane1, esa parábola podría modificarse sustituyendo dinero por bonos del Tesoro, en la medida en que ambos activos tienen la misma fuente de valor.
+
+Con base a lo anterior, muestro los fuertes estímulos fiscales emprendido en los EUA durante el período de la crisis por Covid-19 y como éstos son significativamente mayores a los brindados por los países de la región CARD, evidenciado así como el proceso inflacionario tiene una raíz fiscal originándose en los EUA. Luego presento los cambios en tendencia que, gracias a los estímulos fiscales ejecutados en los EUA, experimentan la proporción de las remesas y las exportaciones e importaciones de bienes con respecto al Producto Interno Bruto (PIB) en cada uno de los países de la región, corroborando de esta manera que estos países se encuentran altamente integrados con los EUA y entre sí, hecho el cual limita la capacidad de la política monetaria de estos países ante un shock de política de los EUA.
+
+Finalmente, en esta nota ofrezco una interpretación alternativa al proceso de desinflación particularmente observado en Costa Rica. Y es que en contra de la opinión convencional de atribuir esta desinflación al fuerte incremento de tasas de parte de la autoridad monetaria, yo explico que este proceso tiene como base su política fiscal.
+
+# El origen del episodio inflacionario post-pandemia en los EUA
