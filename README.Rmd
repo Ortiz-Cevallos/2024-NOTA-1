@@ -1,0 +1,4 @@
+## README
+
+You can also embed plots, for example:
+
